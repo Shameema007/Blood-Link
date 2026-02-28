@@ -12,19 +12,20 @@
 - Member 1: Shameema Ashraf - Albertian Institute of Science and Technology
 - Member 2: Sreelakshmi K.S - Albertian Institute of Science and Technology
 
-### Hosted Project Link
-[mention your project hosted link here]
 
 ### Project Description
 Blood Link is a web platform that connects blood donors with recipients during emergencies.
 It enables users to register as donors, search for compatible donors, and raise urgent blood requests quickly.
 
+
 ### The Problem statement
 During medical emergencies, finding compatible blood donors quickly is difficult.
 Many people rely on phone calls or social media, which delays response time.
 
+
 ### The Solution
 Blood Link provides a centralized platform where donors can register and recipients can instantly find matches, with emergency requests highlighted for faster response.
+
 
 
 ## Technical Details
@@ -91,6 +92,7 @@ Donor request form
 ### Video
 ![blood link video](https://drive.google.com/file/d/1xH-JAkaPVLjVUOidvq8qLboqn9G-sZcl/view?usp=sharing)
 This video demonstrates donor registration, searching donors, and emergency highlighting.
+
 
 
 Made with ❤️ at TinkerHub
