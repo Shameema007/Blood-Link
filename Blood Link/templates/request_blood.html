@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="form-card">
+<h2>Request Blood</h2>
+
+<form method="POST">
+    <label>Name</label>
+    <input type="text" name="name" required>
+
+    <label>Blood Group</label>
+    <select name="blood_group" required>
+        <option value="">Select</option>
+        <option>A+</option><option>A-</option>
+        <option>B+</option><option>B-</option>
+        <option>O+</option><option>O-</option>
+        <option>AB+</option><option>AB-</option>
+    </select>
+
+    <label>Hospital</label>
+    <input type="text" name="hospital" required>
+
+    <label>City</label>
+    <input type="text" name="city" required>
+
+    <label>Phone</label>
+    <input type="text" name="phone" required>
+
+    <label>Urgency</label>
+    <select name="urgency">
+        <option>Normal</option>
+        <option>Emergency</option>
+    </select>
+
+    <button type="submit">Submit Request</button>
+</form>
+</div>
+
+{% endblock %}

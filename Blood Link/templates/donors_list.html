@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% if urgency == "Emergency" %}
+<div class="emergency-banner">
+🚨 EMERGENCY BLOOD REQUEST 🚨
+</div>
+{% endif %}
+
+<h2 class="page-title">Matching Donors</h2>
+
+{% if donors %}
+<div class="donor-grid">
+    {% for donor in donors %}
+    <div class="donor-card {% if urgency == 'Emergency' %}emergency-card{% endif %}">
+        <div class="blood-badge">{{ donor.blood_group }}</div>
+        <h3>{{ donor.name }}</h3>
+        <p>📍 {{ donor.city }}</p>
+        <p>📞 {{ donor.phone }}</p>
+        <a href="tel:{{ donor.phone }}"><button>Call Donor</button></a>
+    </div>
+    {% endfor %}
+</div>
+{% else %}
+<div class="empty">
+    <h3>No donors found</h3>
+</div>
+{% endif %}
+
+{% endblock %}
