@@ -11,7 +11,9 @@
 ### Team Members
 - Member 1: Shameema Ashraf - Albertian Institute of Science and Technology
 - Member 2: Sreelakshmi K.S - Albertian Institute of Science and Technology
-
+  
+### Hosted Project Link
+[click here](https://blood-link-orcin.vercel.app/)
 
 ### Project Description
 Blood Link is a web platform that connects blood donors with recipients during emergencies.
