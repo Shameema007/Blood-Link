@@ -2,27 +2,29 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Blood Link] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [Buzzcode]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Shameema Ashraf] - [Albertian Institute of Science and Technology]
+- Member 2: [Sreelakshmi K.S] - [Albertian Institute of Science and Technology]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Blood Link is a web platform that connects blood donors with recipients during emergencies.
+It enables users to register as donors, search for compatible donors, and raise urgent blood requests quickly.]
 
 ### The Problem statement
-[What problem are you solving?]
+[During medical emergencies, finding compatible blood donors quickly is difficult.
+Many people rely on phone calls or social media, which delays response time.]
 
 ### The Solution
-[How are you solving it?]
+[Blood Link provides a centralized platform where donors can register and recipients can instantly find matches, with emergency requests highlighted for faster response.]
 
 ---
 
@@ -31,25 +33,19 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [Python, HTML, CSS, JavaScript]
+- Frameworks used: [Flask]
+- Libraries used: [Flask, Jinja2]
+- Tools used: [VS Code, Git, GitHub]
 
-**For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
-
----
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [Donor registration system]
+- Feature 2: [Search donors by blood group]
+- Feature 3: [Emergency request highlighting]
+- Feature 4: [Clean responsive UI] 
 
 ---
 
@@ -59,38 +55,36 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[pip install -r requirements.txt]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[python app.py]
 ```
-
-### For Hardware:
-
-#### Components Required
-[List all components needed with specifications]
-
-#### Circuit Setup
-[Explain how to set up the circuit]
-
----
 
 ## Project Documentation
 
 ### For Software:
 
 #### Screenshots (Add at least 3)
+![home page]( <img width="1366" height="768" alt="home page" src="https://github.com/user-attachments/assets/192ecb64-ce80-4a1a-967e-925a7ab6e5e4" />
+ )
+ Home page showing navigation and platform overview 
+ 
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![donar registration page]( <img width="1366" height="768" alt="donar registration" src="https://github.com/user-attachments/assets/758116fb-9a2a-46c7-a82a-dee47e4ec248" />
+  )
+Donor registration form
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![receiver registration page](  <img width="1366" height="768" alt="request registration" src="https://github.com/user-attachments/assets/3e7f4e34-4523-4eaf-9282-11542b65a001" />
+ )
+Donor request form
+
+![match founded page](<img width="1366" height="768" alt="match founded" src="https://github.com/user-attachments/assets/d92d0732-d896-4a30-899b-e25ae4c2b459" />
+  )
+  match founded 
 
 #### Diagrams
 
