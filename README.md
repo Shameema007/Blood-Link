@@ -90,7 +90,7 @@ Donor request form
 ## Project Demo
 
 ### Video
-![watch the video](https://drive.google.com/file/d/1xH-JAkaPVLjVUOidvq8qLboqn9G-sZcl/view))
+[Click here to watch](https://drive.google.com/file/d/1xH-JAkaPVLjVUOidvq8qLboqn9G-sZcl/view)
 This video demonstrates donor registration, searching donors, and emergency highlighting.
 
 
