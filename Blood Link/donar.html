@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donor Registration - BloodLink</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Blood Link 🩸</h1>
+    <h2>Donor Registration</h2>
+
+    <form id="donorForm">
+
+        <!-- Full Name -->
+        <input type="text" 
+               id="fullName" 
+               placeholder="Enter Full Name" 
+               required>
+
+        <!-- Blood Group -->
+        <select id="bloodGroup" required>
+            <option value="">Select Blood Group</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select>
+
+        <!-- Phone -->
+        <input type="tel" 
+               id="phone" 
+               placeholder="Enter Phone Number" 
+               required>
+
+        <!-- Location -->
+        <input type="text" 
+               id="location" 
+               placeholder="Enter City / Location" 
+               required>
+
+        <!-- Availability -->
+        <select id="availability" required>
+            <option value="">Availability</option>
+            <option value="Available Now">Available Now</option>
+            <option value="Not Available">Not Available</option>
+        </select>
+
+        <!-- Submit Button -->
+        <button type="submit">Register as Donor</button>
+
+    </form>
+
+    <br>
+    <button onclick="window.location.href='role.html'">
+        ⬅ Back
+    </button>
+
+</div>
+
+</body>
+</html>
